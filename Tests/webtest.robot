@@ -1,7 +1,10 @@
 *** Settings ***
 Documentation  Somme basic information about the whole test suite
 Library  SeleniumLibrary
+
 Resource  ../Resources/keywords.robot
+Library  ../Scripts/remove_parenthesis.py
+Library  SeleniumLibrary
 Suite Setup  Begin Web Test
 Suite Teardown   End Web Test
 
