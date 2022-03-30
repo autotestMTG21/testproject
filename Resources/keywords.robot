@@ -5,7 +5,7 @@ Go To Web Page
     Load Page
     Verify Page Loaded
 Load Page
-    Go To  ${URL}
+    Go To      ${URL}
 Verify Page Loaded
     Wait Until Page Contains  Om MediaMarkt
 Search For Product
